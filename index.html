@@ -7,6 +7,7 @@
   <title>Document</title>
   <link rel="icon" href="src/img/favicon-32x32.png">
   <link rel="stylesheet" href="dist/style.css">
+  <script src="app/js/script.js" defer></script>
 </head>
 <body>
   <header>
@@ -34,7 +35,8 @@
             id="first-name"
             name="first-name"
             placeholder="First Name">
-            <span>Error Here</span>
+            <img src="src/img/icon-error.svg" alt="Error Icon">
+            <span></span>
           </div>
           <div class="form-item">
             <label for="last-name">Last Name:</label>
@@ -46,7 +48,8 @@
             id="last-name"
             name="last-name"
             placeholder="Last Name">
-            <span>Error Here</span>
+            <img src="src/img/icon-error.svg" alt="Error Icon">
+            <span></span>
           </div>
           <div class="form-item">
             <label for="email">Email Address: </label>
@@ -58,7 +61,8 @@
             id="email"
             name="email"
             placeholder="Email Address">
-            <span>Error Here</span>
+            <img src="src/img/icon-error.svg" alt="Error Icon">
+            <span></span>
           </div>
           <div class="form-item">
             <label for="password">Password: </label>
@@ -70,11 +74,12 @@
             id="password"
             name="password"
             placeholder="Password">
-            <span>Error Here</span>
+            <img src="src/img/icon-error.svg" alt="Error Icon">
+            <span></span>
           </div>
-          <input type="submit" value="claim your free trial">
+          <input type="submit" value="claim your free trial" class="submit">
         </form>
-        <p>By clicking the button, you are agreeing to our <strong>Terms and Services</strong></p>
+        <p>By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
       </div>
     </div>
   </main>

@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"style.css"}
+{"version":3,"sources":["globals/typography.scss"],"names":[],"mappings":"AAAQ,oHAAA","file":"style.css","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,600&display=swap');\n\n$main-font: 'Poppins', sans-serif;"]}

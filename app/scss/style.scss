@@ -1,2 +1,6 @@
 @use 'globals' as *;
 @use 'utils' as u;
+
+body{
+    background-color: $red;
+}
